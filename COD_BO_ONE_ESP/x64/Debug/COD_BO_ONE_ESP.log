@@ -1,0 +1,13 @@
+﻿  entry.cpp
+C:\Users\Falke\Downloads\Black-Ops-1-Zombies-Radar-main\Black-Ops-1-Zombies-Radar-main\COD_BO_ONE_ESP\COD_BO_ONE_ESP\entry.cpp(93,15): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+  graphics.cpp
+  mem.cpp
+  proc.cpp
+  worldToScreen.cpp
+  Generating Code...
+graphics.obj : error LNK2019: unresolved external symbol Direct3DCreate9 referenced in function "void __cdecl initD3D(struct HWND__ *,struct D3DContext &)" (?initD3D@@YAXPEAUHWND__@@AEAUD3DContext@@@Z)
+graphics.obj : error LNK2019: unresolved external symbol D3DXCreateFontW referenced in function "void __cdecl DrawTextOnRadar(struct IDirect3DDevice9 *,char const *,float,float,unsigned long)" (?DrawTextOnRadar@@YAXPEAUIDirect3DDevice9@@PEBDMMK@Z)
+graphics.obj : error LNK2019: unresolved external symbol D3DXCreateLine referenced in function "void __cdecl DrawLine(struct IDirect3DDevice9 *,float,float,float,float)" (?DrawLine@@YAXPEAUIDirect3DDevice9@@MMMM@Z)
+C:\Users\Falke\Downloads\Black-Ops-1-Zombies-Radar-main\Black-Ops-1-Zombies-Radar-main\COD_BO_ONE_ESP\Dependencies\lib\d3d9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Falke\Downloads\Black-Ops-1-Zombies-Radar-main\Black-Ops-1-Zombies-Radar-main\COD_BO_ONE_ESP\Dependencies\lib\d3dx9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Falke\Downloads\Black-Ops-1-Zombies-Radar-main\Black-Ops-1-Zombies-Radar-main\COD_BO_ONE_ESP\x64\Debug\COD_BO_ONE_ESP.exe : fatal error LNK1120: 3 unresolved externals

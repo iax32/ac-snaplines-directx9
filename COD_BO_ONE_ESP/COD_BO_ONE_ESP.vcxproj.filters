@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphic">
+      <UniqueIdentifier>{420d6182-453a-4d78-9ffd-b9665f58cc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{afdb9bb5-159b-4440-a783-419bcd165c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\Process">
+      <UniqueIdentifier>{4b2a93b0-a205-4b71-b57c-320229a94292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\Instructions">
+      <UniqueIdentifier>{bce9951a-124d-4a0e-98fc-f2b028d699b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Datatypes">
+      <UniqueIdentifier>{4e6185b7-9942-4d80-b91c-96046f851f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{7c0496c7-628f-4547-b5fb-5d2b43a6a131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\WorldToScren">
+      <UniqueIdentifier>{5ccf6b5d-127b-45ef-8adb-7c2d3cdc26a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>Memory\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>Memory\Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="worldToScreen.cpp">
+      <Filter>Math\WorldToScren</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphics.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>Memory\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Memory\Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="datatypes.h">
+      <Filter>Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="worldToScreen.h">
+      <Filter>Math\WorldToScren</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
